@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            height: 200vh;
+        }
+        div{
+            border: 2px solid #000;
+            margin: 20px;
+            padding: 10px;
+            
+        }
+        p{
+            border: 2px solid #333;
+            border-radius: 10px;
+            width: 100px;
+            height: 20px;
+            padding: 10px;
+        }
+        #position-static{
+            position: static;
+        }
+        #position-fixed{
+            position: fixed;
+        }
+        #position-stick{
+            position: sticky;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="position-static">
+        <p>Lorem.</p>
+        <p>Consequuntur.</p>
+        <p>Sunt?</p>
+        <p>Molestias.</p>
+    </div>
+
+    <div id="position-fixed">
+        <p style="background-color: red;">Position Fixed</p>
+    </div>
+
+    <div id="position-stick">
+        <p style="background-color: red;">Position Stick</p>
+    </div>
+</body>
+</html>

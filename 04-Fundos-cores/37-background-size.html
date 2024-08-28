@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-size</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 550px;
+            height: 250px;
+            margin: 20px;
+        }
+        .cover{
+            background-image: url('../img-logos.png');
+            background-size: cover;
+        }
+        .contain{
+            background-image: url('../img-logos.png');
+            background-size: contain;
+        }
+        .percent{
+            background-image: url('../img-logos.png');
+            background-size: 20%;
+        }
+        .valor{
+            background-image: url('../img-logos.png');
+            background-size: 200px 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover"></div>
+    <div class="contain"></div>
+    <div class="percent"></div>
+    <div class="valor"></div>
+</body>
+</html>
