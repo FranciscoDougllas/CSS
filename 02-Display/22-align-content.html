@@ -13,6 +13,9 @@
         }
         body {
             margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .container {
             width: 750px;
@@ -23,12 +26,18 @@
             display: flex;
             flex-wrap: wrap;
         }
-        p {
+        p, strong {
             padding: 10px;
             border: 1px solid;
             margin: 5px;
             background-color: #7789;
             flex: 0 0 45%; /* Garantir que os itens sejam grandes o suficiente para envolver */
+        }
+        strong{
+            font-size: 1.3rem;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: blue;
+            color: #fff;
         }
         .normal { align-content: normal; }
         .stretch { align-content: stretch; }
