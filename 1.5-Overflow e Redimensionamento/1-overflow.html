@@ -12,19 +12,24 @@
             box-sizing: border-box;
         }
         body{
-            margin: 0 auto;
+            margin: 20px;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         div{
-            margin: 10px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f7f8f9;
         }
-
+ 
         /* Overflow-x */
         #overflow-x{
-            width: 300px;
-            height: 200px;
+            width: 400px;
+            height: 300px;
             display: flex;
             border: #000 5px solid;
             overflow-x: scroll; /* hidden, auto */
@@ -37,8 +42,8 @@
 
         /* Overflow-y */
         #overflow-y{
-            width: 300px;
-            height: 200px;
+            width: 400px;
+            height: 300px;
             display: flex;
             flex-direction: column;
             border: #000 5px solid;
@@ -52,8 +57,8 @@
 
         /*Overflow*/
         #overflow{
-            width: 300px;
-            height: 200px;
+            width: 400px;
+            height: 300px;
             display: flex;
             border: 5px solid #333;
             overflow: auto;
