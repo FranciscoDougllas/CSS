@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Block</title>
+    <title>Display Inline</title>
 
     <style>
         body{
             width: 100vw;
-            height: 50vh;
+            height: 100vh;
             text-align: center;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
@@ -18,17 +18,20 @@
         }
         .container {
             border: 1px solid;
+            width: 50vw;
+            height: 500px;
             margin: 10px;
-            padding: 10px;
+            padding: 20px;
             background-color: #d0efd1;
             border-radius: 10px;
             background-color: rgb(202, 190, 190);
             box-shadow: 0 0 15px;
+            height: 200px;
         }
 
         p {
             border: 1px solid red;
-            display: block;
+            display: inline;
             padding: 10px;
             width: 300px;
             background-color: #b3e086;
@@ -36,13 +39,14 @@
     </style>
 </head>
 <body>
-    <h1>Display Block</h1>
-    <p>O elemento é exibido como um bloco, ocupando toda a largura disponível e começando em uma nova linha.</p>
-
+    <h1>Display Inline</h1>
+    <p>O elemento é exibido na mesma linha que os elementos adjacentes, sem iniciar uma nova linha.</p>
     <p>Exemplo de uso</p>
     <div class="container">
         <p>Lorem.</p>
         <p>Soluta.</p>
+        <p>Alias?</p>
+        <p>Consequatur?</p>
         <p>Alias?</p>
         <p>Consequatur?</p>
     </div>

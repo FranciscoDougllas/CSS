@@ -8,7 +8,6 @@
     <style>
         body{
             width: 100vw;
-            height: 50vh;
             text-align: center;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
@@ -17,6 +16,7 @@
             align-items: center;
         }
         .container {
+            width: 550px;
             border: 1px solid;
             margin: 10px;
             padding: 10px;
@@ -28,23 +28,23 @@
 
         p {
             border: 1px solid red;
-            display: inline-block;
+            display: block;
             padding: 10px;
-            width: 200px;
             background-color: #b3e086;
+        }
+        b{
+            background-color: #b3e086;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Display Inline-block</h1>
-    <p>Combina características de block e inline. O elemento é exibido na mesma linha, mas pode ter largura e altura definidas.</p>
+    <h1>Display Block</h1>
+    <b>O elemento é exibido como um bloco, ocupando toda a largura disponível e começando em uma nova linha.</b>
 
-    <p>Exemplo de uso</p>
     <div class="container">
         <p>Lorem.</p>
         <p>Soluta.</p>
-        <p>Alias?</p>
-        <p>Consequatur?</p>
         <p>Alias?</p>
         <p>Consequatur?</p>
     </div>
