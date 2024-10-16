@@ -1,0 +1,13 @@
+// Definindo as variaveis
+$cor-principal: rgb(37, 37, 72);
+$cor-secundaria: rgb(156, 37, 37);
+
+// Utilizando as variaveis
+
+h1 {
+    color: $cor-principal;
+}
+p{
+    color: $cor-secundaria;
+    font-size: 2rem;
+}

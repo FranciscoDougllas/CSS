@@ -1,0 +1,27 @@
+Instala o SASS globalmente
+npm install -g sass
+
+Compila o arquivo
+sass src/styles.scss src/styles.css --watch
+
+Monitora um arquivo
+sass --watch src/styles.scss src/styles.css
+
+Executando
+sass --watch scss/01-introducao.scss:css/01-introducao.css
+
+OBS: Deve ser executado na Pasta padrao do Diretorio
+
+CRIE UM ARQUIVO JSON PARA COMPILAÇÃO ALTOMATICA
+npm init -y = Gera um arquivo de configração do projeto
+Adicione o sass dessa forma
+"scripts": {
+    "sass": "sass scss/style.scss:css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+EXECUTA O ARQUIVO JSON
+npm run sass
+
+
+OBS: Mude o Copilo para o diretorio de sua escolha
